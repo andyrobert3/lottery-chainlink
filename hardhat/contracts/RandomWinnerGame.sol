@@ -50,8 +50,8 @@ contract RandomWinnerGame is VRFConsumerBase, Ownable {
     }
 
     function joinGame() public payable {
-        require(!gameStarted, "Game has started");
-        require(msg.value == entryFee, "Entry fee is not paid");
+        require(gameStarted, "Game has started");
+        require(msg.value >= entryFee, "Entry fee is not paid");
         require(players.length < maxPlayers, "No more players can join game");
 
         players.push(msg.sender);
