@@ -9,7 +9,7 @@ dataSources:
       address: "0xF08eeD33c6438E44782fA36AC821F7c1aE8ef347"
       abi: RandomWinnerGame
       # Index back to when contract was first deployed
-      startBlock: 28561171
+      startBlock: 28582277
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
