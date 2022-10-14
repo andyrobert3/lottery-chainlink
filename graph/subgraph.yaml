@@ -6,7 +6,7 @@ dataSources:
     name: RandomWinnerGame
     network: mumbai
     source:
-      address: "0xF08eeD33c6438E44782fA36AC821F7c1aE8ef347"
+      address: "0x3170f5EF5B02F36c028909576E4Ae6268eCEf283"
       abi: RandomWinnerGame
       # Index back to when contract was first deployed
       startBlock: 28582277
