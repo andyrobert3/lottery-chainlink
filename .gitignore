@@ -9,4 +9,6 @@ typechain-types
 cache
 artifacts
 
+#NextJS files
 build
+.next
